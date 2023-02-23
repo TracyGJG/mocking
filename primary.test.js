@@ -1,6 +1,6 @@
 import { jest } from '@jest/globals';
 
-import welcome from './primary';
+import welcome from './primary.js';
 
 jest.mock('./secondary.js', function () {
 	return {
