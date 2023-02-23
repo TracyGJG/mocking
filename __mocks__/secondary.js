@@ -1,3 +1,3 @@
 export function sayHello(who = '') {
-	return `__${who}__`;
+	return `_${who}_`;
 }

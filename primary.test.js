@@ -5,7 +5,7 @@ import welcome from './primary.js';
 jest.mock('./secondary.js', function () {
 	return {
 		__esModule: true,
-		sayHello: jest.fn(subject => `__${subject}__`),
+		sayHello: jest.fn(subject => `_${subject}_`),
 	};
 });
 
